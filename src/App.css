@@ -7,4 +7,20 @@
 
 .App {
   text-align: center;
+  height: 100vh;
+  position: relative;
+  border: 5px solid red;
+}
+
+.container {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: 1em auto;
+}
+
+/* NavBar component */
+.row-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
