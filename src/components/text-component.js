@@ -1,13 +1,15 @@
 export default function TextComponent(){
     return (
-        <div>
+        <div className="text">
             <p><span>new</span> Monograph Dashboard</p>
             <h1>powerful insights into your team</h1>
-            <p>Prohect planning and time tracking for agile teams</p>
-            <div>
-                <button>Schedule a demo</button>
+            <p className="para">Project planning and time tracking for agile teams</p>
+            <div className="text-row">
                 <div>
-                    <p>To see a preview</p>
+                    <button>Schedule a demo</button>
+                </div>
+                <div>
+                    <button className="second-btn">To see a preview</button>
                 </div>
             </div>
         </div>
