@@ -19,13 +19,13 @@ export default function NavBar(){
                 </div>
             </nav>
             {showMenu && 
-            <div>
+            <div className='menu'>
                 <ul>
                     <li>Product</li>
                     <li>Features</li>
                     <li>Pricing</li>
                     <hr />
-                    <li>Login</li>
+                    <li className='login'>Login</li>
                 </ul>
             </div>
             }

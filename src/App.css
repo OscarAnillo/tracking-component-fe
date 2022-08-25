@@ -20,6 +20,28 @@
   margin: 1em auto 65px auto;
 }
 
+.menu {
+  width: 90%;
+  background: #fff;
+  position: absolute;
+  top: 8%;
+  left: 5%;
+}
+.menu ul {
+  list-style: none;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.menu li {
+  margin: 1.5em 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.menu .login {
+  color: rgb(148, 147, 155);
+}
+
 /* HeroImage component */
 .shape {
   height: 450px;
