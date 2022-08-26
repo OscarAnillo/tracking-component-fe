@@ -122,7 +122,9 @@
   color: #fff;
   background-color: hsl(0, 100%, 68%);
   padding: 1em 2em;
+  transition: all 600ms ease;
 }
+
 .text .second-btn {
   background-color: #fff;
   color: hsl(231, 7%, 65%);
@@ -192,10 +194,15 @@
     text-transform: uppercase;
     margin-right: 2em;
   }
+  .desktop-menu li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .desktop-menu .period {
+    color: rgb(206, 211, 215);
+  }
   
   .desktop-menu .login {
-    padding-left: 2em;
-    border-left: 1px solid gray;
     color: rgb(148, 147, 155);
   }
 
@@ -216,7 +223,7 @@
     background: rgb(237, 242, 246);
     position: absolute;
     top: -200px;
-    left: -20px;
+    left: -15px;
     width: 100%;
     z-index: -1;
   }
@@ -254,20 +261,13 @@
     width: 70%;
   }
   
-  .text button {
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    background-color: hsl(0, 100%, 68%);
-    padding: 1em 2em;
+  .text button:hover {
+    background: rgb(255, 133, 132);
+    cursor: pointer;
   }
-  .text .second-btn {
+
+  .text .second-btn:hover {
     background-color: #fff;
-    color: hsl(231, 7%, 65%);
-    font-weight: 400;
+    cursor: default;
   }
 }

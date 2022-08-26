@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import 'animate.css';
 
 export default function NavBar(){
     const [showMenu, setShowMenu] = useState(false)
@@ -8,7 +9,7 @@ export default function NavBar(){
     }
 
     return (
-        <section>
+        <section className='animate__animated animate__fadeInDown'>
             <nav className="row-nav">
                 <div>
                     <img src="/images/logo.svg" alt="" />
@@ -18,6 +19,7 @@ export default function NavBar(){
                         <li>Product</li>
                         <li>Features</li>
                         <li>Pricing</li>
+                        <li className='period'>•</li>
                         <li className='login'>Login</li>
                     </ul>
                 </div>
