@@ -13,8 +13,15 @@ export default function NavBar(){
                 <div>
                     <img src="/images/logo.svg" alt="" />
                 </div>
-
-                <div onClick={clickHandler}>
+                <div className="desktop-menu">
+                    <ul>
+                        <li>Product</li>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li className='login'>Login</li>
+                    </ul>
+                </div>
+                <div onClick={clickHandler} className="menu-mobile">
                     {showMenu ? <img src="/images/icon-close.svg" alt="" /> : <img src="/images/icon-hamburger.svg" alt="" /> }
                 </div>
             </nav>

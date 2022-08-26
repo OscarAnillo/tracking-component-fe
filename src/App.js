@@ -7,8 +7,8 @@ import TextComponent from './components/text-component';
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <div className="container">
-        <NavBar />
         <HeroImage />
         <TextComponent />
       </div>
