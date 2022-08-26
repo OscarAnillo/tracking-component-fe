@@ -1,6 +1,8 @@
+import 'animate.css';
+
 export default function TextComponent(){
     return (
-        <div className="text">
+        <div className="text animate__animated animate__fadeIn">
             <p><span>new</span> Monograph Dashboard</p>
             <h1>powerful insights into your team</h1>
             <p className="para">Project planning and time tracking for agile teams</p>

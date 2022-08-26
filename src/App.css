@@ -124,6 +124,7 @@
   padding: 1em 2em;
   transition: all 600ms ease;
 }
+
 .text .second-btn {
   background-color: #fff;
   color: hsl(231, 7%, 65%);
@@ -222,7 +223,7 @@
     background: rgb(237, 242, 246);
     position: absolute;
     top: -200px;
-    left: -20px;
+    left: -15px;
     width: 100%;
     z-index: -1;
   }
