@@ -28,7 +28,7 @@
   width: 90%;
   background: #fff;
   position: absolute;
-  top: 8%;
+  top: 100%;
   left: 5%;
 }
 .menu ul {
@@ -138,7 +138,7 @@
   }
 
   .menu {
-    top: 12%;
+    top: 100%;
     left: 4%;
   }
 
