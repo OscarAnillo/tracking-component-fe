@@ -18,6 +18,7 @@ export default function NavBar(){
                         <li>Product</li>
                         <li>Features</li>
                         <li>Pricing</li>
+                        <li className='period'>•</li>
                         <li className='login'>Login</li>
                     </ul>
                 </div>
